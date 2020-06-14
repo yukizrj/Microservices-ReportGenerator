@@ -23,8 +23,8 @@ projects include spring cloud config, eureka, zuul api gateway, client, generato
  
 ### Useful Urls
 
-check tables [http://localhost:9090/h2-console]
+check tables [http://localhost:9090/h2-console](http://localhost:9090/h2-console)
 
-eureka [http://localhost:8761]
+eureka [http://localhost:8761](http://localhost:8761)
 
-actuator [http://localhost:9090/actuator]
+actuator [http://localhost:9090/actuator](http://localhost:9090/actuator)
