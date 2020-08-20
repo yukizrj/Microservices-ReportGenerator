@@ -12,35 +12,35 @@ pipeline {
         stage('Build eureka-server') {
           steps {
             sh '''cd eureka-server
-mvn package'''
+pwd'''
           }
         }
 
         stage('Build report-generator') {
           steps {
             sh '''cd report-generator
-mvn package'''
+pwd'''
           }
         }
 
         stage('Build spring-cloud-server') {
           steps {
             sh '''cd spring-cloud-server
-mvn package'''
+pwd'''
           }
         }
 
         stage('Build transactions-client') {
           steps {
             sh '''cd transactions-client
-mvn package'''
+pwd'''
           }
         }
 
         stage('Build zuul-api-gateway') {
           steps {
             sh '''cd zuul-api-gateway
-mvn package'''
+pwd'''
           }
         }
 
